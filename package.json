@@ -2,19 +2,24 @@
   "name": "ma-nikka-noble-portfolio",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://advoluteedge-ship-it.github.io/ma-nikka-noble-portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^6.0.2",
-    "vite": "^8.0.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "vite": "^8.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
   "description": "A responsive personal portfolio built with React and Vite. It presents Ma. Nikka Noble's digital marketing, WordPress development, SEO, analytics, and paid-media experience.",
   "main": "vite.config.js",
   "author": "",
