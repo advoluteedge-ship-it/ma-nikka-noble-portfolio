@@ -188,7 +188,7 @@ export default function Home() {
           <div className="portrait-dots" aria-hidden="true" />
           <div className="portrait-card">
             <img
-              src="assets/nikka-noble.jpg"
+              src="/assets/nikka-noble.jpg"
               alt="Professional portrait of Ma. Nikka Noble"
             />
           </div>
