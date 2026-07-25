@@ -50,3 +50,4 @@ Replace `YOUR-USERNAME` and `YOUR-REPOSITORY` with your GitHub details.
 - `src/styles.css` - responsive design and visual styling
 - `public/assets/ma-nikka-noble.jpg` - profile image
 - `public/assets/ma-nikka-noble-resume.pdf` - downloadable resume
+# ma-nikka-noble-portfolio
