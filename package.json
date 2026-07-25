@@ -1,0 +1,22 @@
+{
+  "name": "ma-nikka-noble-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {},
+  "description": "A responsive personal portfolio built with React and Vite. It presents Ma. Nikka Noble's digital marketing, WordPress development, SEO, analytics, and paid-media experience.",
+  "main": "vite.config.js",
+  "author": "",
+  "license": "ISC"
+}
