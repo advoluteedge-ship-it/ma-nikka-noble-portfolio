@@ -93,13 +93,7 @@ const projects = [
     url: "https://cost-calculation-22e39.web.app/",
     text: "An interactive quotation and cost-calculation prototype designed to simplify early-stage client estimates.",
   },
-  {
-    title: "Solar Energy",
-    category: "Industry Website",
-    status: "Draft",
-    url: "https://solar-energy-f849f.web.app",
-    text: "A clean renewable-energy website concept presenting solar solutions, benefits, and customer calls to action.",
-  },
+ 
 ];
 
 const experience = [
@@ -188,7 +182,7 @@ export default function Home() {
           <div className="portrait-dots" aria-hidden="true" />
           <div className="portrait-card">
             <img
-              src="assets/nikka-noble.jpg"
+              src={`${import.meta.env.BASE_URL}assets/nikka-noble.jpg`}
               alt="Professional portrait of Ma. Nikka Noble"
             />
           </div>
